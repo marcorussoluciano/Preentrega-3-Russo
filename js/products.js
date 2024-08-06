@@ -1,0 +1,82 @@
+const products = [
+    {
+        id: 1,
+        name: " Placa de video MSI GeForce RTX 3060 12gb GDDR6 VENTUS OC ",
+        price: 414000,
+        img: 
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_35050_Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_VENTUS_2X_OC_2b62b7c7-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 2,
+        name: "Placa de Video ASUS GeForce RTX 4070 Ti SUPER 16GB GDDR6X TUF GAMING OC",
+        price: 1279600,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_39527_Placa_de_Video_ASUS_GeForce_RTX_4070_Ti_SUPER_16GB_GDDR6X_TUF_GAMING_OC__beff94e1-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 3,
+        name: "Mother Asrock B550M Steel Legend AM4",
+        price: 159000,
+        img: 
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_20656_Mother_Asrock_B550M_Steel_Legend_AM4_cc46f413-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 4,
+        name: "Mother ASUS TUF GAMING B660M-PLUS WIFI D4",
+        price: 252980,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_32252_Mother_ASUS_TUF_GAMING_B660M-PLUS_WIFI_D4_75faf914-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 5,
+        name: "Procesador AMD Ryzen 7 8700F 5.0GHz Turbo Wraith Stealth Cooler",
+        price: 357000,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_39604_Procesador_AMD_Ryzen_7_8700F_5.0GHz_Turbo_Wraith_Stealth_Cooler_9fbec42a-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 6,
+        name: "Procesador Intel Core i7 14700F 5.4GHz Turbo Socket 1700 Raptor Lake",
+        price: 520000,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38613_Procesador_Intel_Core_i7_14700F_5.4GHz_Turbo_Socket_1700_Raptor_Lake_bd33c755-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 7,
+        name:"Memoria Patriot Viper DDR4 16GB (2x8GB) 3200MHz Blackout",
+        price: 51750,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_25434_Memoria_Patriot_Viper_DDR4_16GB__2x8GB__3200MHz_Blackout_20c329e1-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 8,
+        name: "Memoria Adata DDR4 32GB (2x16GB) 3200Mhz XPG Spectrix D60G RGB",
+        price: 118700,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_40315_Memoria_Adata_DDR4_32GB__2x16GB__3200Mhz_XPG_Spectrix_D60G_RGB_73bb84d3-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 9,
+        name: "Fuente XPG 1000W CYBERCORE 80 Plus Platinum",
+        price: 275800,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_40376_Fuente_XPG_1000W_CYBERCORE_80_Plus_Platinum_36082446-grn.jpg",
+        amount: 1,
+    },
+    {
+        id: 10,
+        name: "Disco Solido SSD M.2 WD 2TB WD_Black SN770 5150MB/s NVMe PCI-E x4 Gen 4",
+        price: 202600,
+        img:
+        "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_34245_Disco_Solido_SSD_M.2_WD_2TB_WD_Black_SN770_5150MB_s_NVMe_PCI-E_x4_Gen_4_2aff08dd-grn.jpg",
+        amount: 1,
+    },
+];

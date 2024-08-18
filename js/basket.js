@@ -25,17 +25,18 @@ const paintBasket = () => {
         <h3>${product.name}</h3>
         <p>$ ${product.price}<p>
         <p>Cantidad: ${product.amount}<p>
+        <span class="delete-product"> ❌ </span>
         `;
     
     modalContainer.append(basketContent);
 
-    let eliminar = document.createElement("span");
+    let eliminar = basketContent.querySelector(".delete-product")
 
-    eliminar.innerText = "❌";
-    eliminar.className = "delete-product"
-    basketContent.append(eliminar);
+    eliminar.addEventListener("click", () => {
+        deleteProduct(product.id);
+    });
 
-    eliminar.addEventListener("click", deleteProduct);
+    
     });
     
     const total = basket.reduce((acc, el) => acc + el.price * el.amount, 0);
@@ -48,8 +49,8 @@ const paintBasket = () => {
 
 inspectBasket.addEventListener("click", paintBasket);
 
-const deleteProduct = () => {
-    const foundId = basket.find((element) => element.id);
+const deleteProduct = (id) => {
+    const foundId = basket.find((element) => element.id === id);
 
     basket = basket.filter((basketId) => {
         return basketId !== foundId;
